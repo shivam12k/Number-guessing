@@ -12,6 +12,7 @@
     <title>Number guessing</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
     <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
 
 
@@ -21,13 +22,17 @@
 <body>
     <div id="particles-js">
     </div>
+   
+   
     <div class="wrapper">
 
 
 
-        <div class="container">
+        <div class="container animate__zoomIn ">
 
             <form class="welcome_form" name="welcome_form" onsubmit="submitForm(event)">
+                <h1 class="animate__animated animate__bounce heading animate__zoomInDown"> I can Read your mind</h1>
+
                 <input class="input" type="text" name="name" placeholder="Enter your name">
                 <button class="btn" type="submit">Start</button>
             </form>

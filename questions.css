@@ -25,3 +25,8 @@
     display: flex;
     justify-content: center;
 }
+.result_box{
+    display:flex;
+    justify-content: center;
+    margin-top: 45px;
+}
