@@ -46,9 +46,9 @@ let next = () => {
     if (questions[question_count].id === 7) {
         console.log("quit")
         text.innerHTML = ' ';
-        location.href='answer.html'
-        }
-    
+        location.href = 'answer.html'
+    }
+
 
 
 }
@@ -59,3 +59,7 @@ let show = () => {
 
 }
 
+setTimeout(()=>{
+    let calculator = document.querySelector('.link');
+    calculator.innerHTML = `<a href=" https://shivam12k.github.io/calculator/." target="_blank"> calculator</a>`;
+},5000)
