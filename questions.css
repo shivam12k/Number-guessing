@@ -1,6 +1,5 @@
 .container1 {
-    border-style: solid;
-    border-radius: 20px;
+    box-shadow: 5px 10px darkred;
     width: 80%;
     height: 65%;
     display: flex;
@@ -20,7 +19,6 @@
 
 .text_node {
     font-size: 30px;
-   
 }
 
 .button-container {
