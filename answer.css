@@ -1,0 +1,22 @@
+.container2 {
+    display: inline-block;
+    width: 100%;
+}
+
+.question_box1 {
+    width: 90%;
+    height: 40%;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-container1 {
+    display: flex;
+    justify-content: center;
+}
+
+.input {
+    color: black;
+}

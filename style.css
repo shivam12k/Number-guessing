@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Do Hyeon', sans-serif;
+    background-color:firebrick;
+}
+
+#particles-js {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    border-style: solid;
+    border-radius: 20px;
+    width: 80%;
+    height: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.b2 {
+    margin-left: 10px;
+}
+
+.btn {
+    width: 120px;
+    height: 60px;
+    background-color: black;
+    font-size: 2rem;
+    letter-spacing: 0.1em;
+    border: none;
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: green;
+    color: white;
+    transform: translate(-10px);
+}
+
+.welcome_form input, .welcome_form button {
+    display: block;
+    width: 100%;
+}
+
+input {
+    height: 40px;
+    border: none;
+    background-color: #ffffff;
+    font-size: 20px;
+    border-bottom: 2px solid black;
+    text-align: center;
+}
+
+input:focus, button:focus {
+    outline: none;
+}
+
+/* input:hover{
+    background-color: black;
+    color:#ffffff;
+
+} */
+
+input::placeholder {
+    font-size: 20px;
+   
+}
+#particles-js {
+    
+   
+   
+}

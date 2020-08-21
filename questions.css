@@ -1,0 +1,29 @@
+.container1 {
+    border-style: solid;
+    border-radius: 20px;
+    width: 80%;
+    height: 65%;
+    display: flex;
+    justify-content: center;
+    display: inline-block;
+}
+
+.question_box {
+    width: 90%;
+    height: 40%;
+    border-style: solid black;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text_node {
+    font-size: 30px;
+   
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
